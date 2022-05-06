@@ -1,0 +1,15 @@
+Tesztesetek:
+1) fireTorpedo - SINGLE mode:
+	try to fire the secondary first
+2) fireTorpedo - SINGLE mode:
+	although primary was fired last time, but the secondary is empty
+        thus try to fire primary again
+3) fireTorpedo - SINGLE mode:
+	if both of the stores are empty, nothing can be done, return failure
+4) fireTorpedo - SINGLE mode:
+	try to fire the primary first
+5) fireTorpedo - SINGLE mode:
+	although secondary was fired last time, but primary is empty
+        thus try to fire secondary again
+5) fireTorpedo - SINGLE mode:
+	if both of the stores are empty, nothing can be done, return failure
